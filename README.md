@@ -7,7 +7,7 @@ This is a Github repository created to submit the fourth Homework of the **Algor
 
 1. `README.md`: A markdown file that explains the content of the repository.
 
-2. `main.ipynb`: A [Jupyter Notebook](https://nbviewer.org/github/msancor/ADM-HW3/blob/main/main.ipynb) file containing all the relevant exercises and reports belonging to the homework questions, the *Command Line Question*, and the *Algorithmic Question*.
+2. `main.ipynb`: A [Jupyter Notebook](https://nbviewer.org/github/msancor/ADM-HW4/blob/main/main.ipynb) file containing all the relevant exercises and reports belonging to the homework questions, the *Command Line Question*, and the *Algorithmic Question*.
 
 3. ``modules/``: A folder including 4 Python modules used to solve the exercises in `main.ipynb`. The files included are:
 
@@ -37,7 +37,7 @@ In this homework we worked with Kaggle's predefined [Netflix Clicks Dataset](htt
 
 If the Notebook doesn't load through Github please try all of these steps:
 
-1. Try compiling the Notebook through its [NBViewer](https://nbviewer.org/github/msancor/ADM-HW3/blob/main/main.ipynb).
+1. Try compiling the Notebook through its [NBViewer](https://nbviewer.org/github/msancor/ADM-HW4/blob/main/main.ipynb).
 
 2. Try downloading the Notebook and opening it in your local computer.
 
