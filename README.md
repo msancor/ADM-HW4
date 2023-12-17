@@ -13,25 +13,25 @@ This is a Github repository created to submit the fourth Homework of the **Algor
 
     - `__init__.py`: A *init* file that allows us to import the modules into our Jupyter Notebook.
 
-    - `web_scraper.py`: A Python file including a `WebScraper` class designed to perform web scraping on the multiple pages of the [MSc. Degrees](https://www.findamasters.com/masters-degrees/msc-degrees/) website.
+    - `data_handler.py`: A Python file including a `DataHandler` class designed to handle data cleaning and feature engineering on Kaggle's [Netflix Clicks Dataset](https://www.kaggle.com/datasets/vodclickstream/netflix-audience-behaviour-uk-movies).
 
-    - `html_parser.py`: A Python file including a `HTMLParser` class designed to parse the HTML files obtained by the web scraping process and extract relevant information.
+    - `recommender.py`: A Python file including a `Recommender` class designed to build a Recommendation Engine with LSH using user data obtained from Kaggle's [Netflix Clicks Dataset](https://www.kaggle.com/datasets/vodclickstream/netflix-audience-behaviour-uk-movies).
 
-    - `data_preprocesser.py`: A Python file including a `DataPreprocesser` class designed to pre-process text data in order to obtain information and build a Search Engine.
+    - `cluster.py`: A Python file including three classes: `FAMD`, `KMeans`, and `KMeans++` designed to perform Factor Analysis of Mixed Data on Kaggle's [Netflix Clicks Dataset](https://www.kaggle.com/datasets/vodclickstream/netflix-audience-behaviour-uk-movies) and then perform parallelized k-Means and k-Means++ clustering using PySpark.
 
-    - `search_engine.py`: A Python file including three classes: `SearchEngine`, `TopKSearchEngine`, and `WeightedTopKSearchEngine` designed to implement different versions of a Search Engine that queries information from our MSc. courses dataset.
-
-    - `map_plotter.py`: A Python file including a `MapPlotter` class designed to plot a map including the results of our Search Engines.
+    - `plotter.py`: A Python file including a `Plotter` class designed to build auxiliary plots for the written report on `main.ipynb`.
 
 4. `commandline.sh`: A bash script including the code to solve the *Command Line Question*.
 
-5. ``.gitignore``: A predetermined `.gitignore` file that tells Git which files or folders to ignore in a Python project.
+5. `images/`: A folder containing a screenshot of the successful execution of the `commandline.sh` script.
 
-6. `LICENSE`: A file containing an MIT permissive license.
+6. ``.gitignore``: A predetermined `.gitignore` file that tells Git which files or folders to ignore in a Python project.
+
+7. `LICENSE`: A file containing an MIT permissive license.
 
 ## Dataset
 
-
+In this homework we worked with Kaggle's predefined [Netflix Clicks Dataset](https://www.kaggle.com/datasets/vodclickstream/netflix-audience-behaviour-uk-movies).
 
 ## Important Note
 
